@@ -10,19 +10,19 @@ Installation
   Download:
 
 ```bash
-git clone https://github.com/tony/tmux-config.git ~/.tmux-tony
+git clone https://github.com/helmuthdu/tmux ~/.tmux
 ```
 
   Copy tmux config to home:
 
 ```bash
-ln -s ~/.tmux-tony/.tmux.conf ~/.tmux.conf
+ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
 ```
 
   Go to config dir:
 
 ```bash
-cd ~/.tmux-tony
+cd ~/.tmux
 ```
 
 Stats
@@ -47,7 +47,7 @@ git submodule update
   Change dir to tmux-mem-cpu-load:
 
 ```bash
-cd ~/.tmux-tony/vendor/tmux-mem-cpu-load
+cd ~/.tmux/vendor/tmux-mem-cpu-load
 ```
 
   General make file:
